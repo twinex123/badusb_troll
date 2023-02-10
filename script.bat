@@ -10,7 +10,7 @@ cls
 ping 127.1 -n 4 >nul
 :a
 echo !esc![!random:~1,1!;!random:~1,1!!random:~1,1!H!esc![48;5;!random:~1,2!m!esc![35;5;!random:~1,2!m!array:~%random:~0,1%%random:~1,1%,1!!esc![0m
-X = Msgbox ("HACKED", 0 + 16, "HACKED")
+echo HACKED HACKED HACKED
 goto a
 
 
